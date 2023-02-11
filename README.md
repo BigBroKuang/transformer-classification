@@ -1,8 +1,17 @@
 ## A transformer used to classify news.
 
+Input data:
+
+```
+|category  | news content| 
+|---------|--------|
+|1| some texts |
+|3 | some texts|
+|2| some texts|
+|4 | some texts|
+```
 
 tesing results of the first epoch:
-
     
 ```
 Epoch: 0, Batch[850/938], Train loss :9.949, Train acc: 0.711
