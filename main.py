@@ -68,7 +68,7 @@ def train_model(config):
             print(f'Epoch:{epoch}, accuracy on test {acc:.3f}')
             
 def evaluate(test_data, model, config):
-    model.evaulate()
+    model.evaluate()
     acc = 0
     n_sample = 0
     with torch.no_grad():
